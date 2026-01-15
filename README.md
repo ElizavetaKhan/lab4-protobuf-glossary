@@ -1,9 +1,4 @@
-## RPC. gRPC. Protobuf (Отчёт)
-
-### Шаги работы
-
-1. Реализуйте задание практики, опубликованное по ссылке, с использованием gRPC, protobuf, предоставьте ссылку на репозиторий GitHub со всеми необходимыми компонентами для развертывания.
-2. В репозитории отразите отчет с помощью файла с разметкой Markdown, где демонстрировался бы процесс развертывания и работы сервиса.
+## RPC. gRPC. Protobuf
 
 ### Описание выполнения работы
 
@@ -109,8 +104,13 @@ python -m app.src.client_main
 
 Пример вывода клиента:
 
+![1](./img/1.png)
+
 ### Исследовательская задача
 
+1. От REST к gRPC и GraphQL: современный подход к API: https://habr.com/ru/articles/961000/
+2. REST, GraphQL и gRPC: https://proglib.io/p/rest-graphql-i-grpc-gayd-dlya-nachinayushchih-razrabotchikov-2024-07-03
+3. Разница между REST, GraphQL и gRPC: https://dev-gang.ru/article/raznica-mezhdu-rest-graphql-i-grpc-sd55zqf705/
 
 ### Краткое резюме:
-
+gRPC лидирует в скорости (2-5x быстрее REST) и throughput для микросервисов. GraphQL гибче для клиентских запросов, но с оверхедом. REST проще, уступает на нагрузке.
